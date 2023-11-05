@@ -1,6 +1,5 @@
 require './player.rb'
 require './math_game.rb'
-require './question.rb'
 
 class Main
   def initialize
