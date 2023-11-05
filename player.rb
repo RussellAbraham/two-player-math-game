@@ -8,7 +8,7 @@ class Player
   def initialize(name)
     @name = name
     @score = 0
-    @live = 3
+    @lives = 3
   end
 
   # Method to answer a question, decrementing lives if the answer is incorrect
@@ -23,7 +23,7 @@ class Player
   end
 
   # Method to check if the player has lost all lives
-  def hase_lost?
+  def has_lost?
     @lives <= 0
   end
 
